@@ -1,0 +1,277 @@
+body {
+    background-image: url(coding-desk-thumb.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: "Roboto";
+
+    padding-top: 60px;
+
+    
+}
+
+h1 {
+    color: lemonchiffon;
+    background-color: rgb(19, 18, 18);
+    border-radius: 0px;
+   
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  
+}
+.circle {
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 50%;
+
+    position: fixed;
+    bottom: 897px;
+    left: 23px;
+    
+
+}
+.circle:hover{
+    background-color: grey
+}
+
+.linkedin-circle{
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 897px;
+    left: 65px;
+
+    /* Center the content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkedin-circle:hover{
+    background-color: grey
+}
+.github-circle{
+    width: 35px;
+    height: 35px;
+    background-color: tran;
+    border-radius: 50%;
+
+    position: fixed;
+    bottom: 897px;
+    left: 107px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.github-circle:hover{
+    background-color: grey;
+}
+.mail-circle{
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 50%;
+
+    position: fixed;
+    bottom: 897px;
+    left: 147px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mail-circle:hover{
+    background-color: grey;
+}
+
+h2 {
+    color: lemonchiffon;
+    font-size: 33px;
+    text-align: center;
+}
+
+.project-icon{
+    color: lemonchiffon;
+   font-size: 20px; 
+
+   position: fixed;
+    left: 30px;
+    bottom: 904px;
+    z-index: 1;
+}
+.mail-icon{
+    color: lemonchiffon;
+   font-size: 22px;
+   z-index: 1;
+
+   position: static;;
+
+   
+    
+}
+
+.back-button{
+    color: lemonchiffon;
+   font-size: 25px; 
+
+   position: fixed;
+    left: 29.5px;
+    bottom: 901px;
+    z-index: 1;
+}
+.linkedin-logo{
+    color: lemonchiffon;
+    font-size: 25px;
+    z-index: 1;
+    /* Remove fixed positioning to allow flexbox centering */
+    position: static;;
+
+    transform: translateY(1px);
+    
+}
+.github-logo{
+    color: lemonchiffon;
+    font-size: 25px; 
+    position: static;;
+    z-index: 1;
+
+    transform: translateY(1px);
+}
+.highlight {
+    background-color: rgb(19, 18, 18);
+    padding: 5px 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.quote {
+    background-color: rgb(19, 18, 18);
+    color: lemonchiffon;
+    font-size: 20px;
+    padding: 10px; /* Adjust padding as needed */
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    
+} 
+.centered{
+    width: 100%; /* Ensure the container takes full width */
+    text-align: center; /* Center align the contents */
+    /* Adjust margin as needed */
+}
+h3 {
+    color: lemonchiffon;
+    background-color: rgb(19, 18, 18);
+    font-size: 27px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+p {
+    color: lemonchiffon;
+    background-color: rgb(19, 18, 18);
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(19, 18, 18);
+    border-radius: 5px;
+    border-width: 3px;
+    padding: 8px;
+}
+p.listText{
+   background-color: transparent;
+   border: none;
+}
+span.ST{
+    display: inline-block;
+    background-color:  rgb(19, 18, 18);
+    border: solid;
+    border-radius: 5px;
+    border-color:  rgb(19, 18, 18);
+    width: 250px;
+      
+    position: relative;  
+    
+    top: -20px;
+
+}
+#Python{
+    position: relative;
+
+    top: -17px;
+}
+#JavaScript{
+    position: relative;
+
+    top: -35px;
+}
+#HTML{
+    position: relative;
+
+    top: -54px;
+}
+#CSS{
+    position: relative;
+
+    top: -70px;
+}
+#JSON{
+    position: relative;
+
+    top: -85px;
+}
+button {
+    background-color: rgb(19, 18, 18);
+    border-radius: 7px;
+    border: 5px solid lemonchiffon;
+    width: 250px;
+    height: 100px;
+    color: lemonchiffon;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    bottom: 75px;
+
+
+}
+button:hover{
+    background-color: rgb(255, 250, 205);
+    color: rgb(19, 18, 18);;
+    border-color: rgb(19, 18, 18);; ;
+}
+
+
+#ProfilePic {
+    border-style: solid;
+    border-color: rgb(19, 18, 18);
+    border-radius: 5px;
+    border-width: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
